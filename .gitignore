@@ -1,0 +1,20 @@
+# Tool-generated transient work directories
+**/work/
+**/.Xil/
+**/*.jou
+**/*.log
+
+# Keep smoke-test evidence logs explicitly committed
+!skill_test/reports/modelsim_transcript.log
+
+# ModelSim generated local library files
+**/modelsim.ini
+**/transcript
+**/work/
+
+# Vivado generated binary checkpoints/projects
+**/*.dcp
+**/*.runs/
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/

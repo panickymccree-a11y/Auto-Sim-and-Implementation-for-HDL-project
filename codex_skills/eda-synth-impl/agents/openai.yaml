@@ -1,0 +1,4 @@
+interface:
+  display_name: "EDA Synth Impl"
+  short_description: "Run Vivado synthesis, implementation and timing analysis."
+  default_prompt: "Run Vivado synthesis and implementation for this RTL project."

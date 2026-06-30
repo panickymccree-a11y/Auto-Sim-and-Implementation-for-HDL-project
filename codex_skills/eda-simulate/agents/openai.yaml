@@ -1,0 +1,4 @@
+interface:
+  display_name: "EDA Simulate"
+  short_description: "Run RTL simulations with ModelSim or Vivado XSim."
+  default_prompt: "Run a functional simulation for this RTL design."
